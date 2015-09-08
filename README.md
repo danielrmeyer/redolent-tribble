@@ -12,4 +12,6 @@ sudo /home/vagrant/flask_env/bin/python /vagrant/app/hello_world.py
 ```
 
 In your local browser visit:
+```
 http://localhost:5050/
+```
