@@ -1,9 +1,9 @@
 echo "Provisioner is running ..."
 sudo apt-get -y update
 sudo apt-get -y install python3-pip
-sudo apt-get install -y python3-virtualenv
 sudo pip3 install virtualenv
-source /home/vagrant/test/bin/activate
-pip install -r /vagrant/requirements
+virtualenv /home/vagrant/flask_env
+source /home/vagrant/flask_env/bin/activate
+pip install -r /vagrant/requirements.txt
 echo "Provisioner is done."
 
